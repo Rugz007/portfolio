@@ -40,12 +40,6 @@ const Work =
             icon:<img src='pikachu.png' alt='pokemon'style={{width:'170px'}}/>,
             stack:[],
         },
-        {
-            title:'Portfolio Website',
-            description:'Developed the frontend of this website using ReactJS with TypeScript.',
-            icon:<img src='logo.gif' alt='logo'style={{width:'170px'}}/>,
-            stack:[],
-        }
     ],
 }
 export default Work;
