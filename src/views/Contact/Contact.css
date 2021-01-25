@@ -1,0 +1,7 @@
+.contactcover
+{
+    background-image: url(../Contact/contactCover.png);
+    background-attachment:fixed;
+    background-position:  bottom;
+    height: '300px';
+}

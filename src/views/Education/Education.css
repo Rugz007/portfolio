@@ -1,0 +1,7 @@
+.educationcover
+{
+    background-image: url(../Education/educationCover.png);
+    background-attachment:fixed;
+    background-position:  center;
+    height: '300px';
+}

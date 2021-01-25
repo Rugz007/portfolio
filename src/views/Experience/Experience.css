@@ -1,0 +1,7 @@
+.experiencecover
+{
+    background-image: url(../Experience/experienceCover.png);
+    background-attachment:fixed;
+    background-position:  bottom;
+    height: '300px';
+}
