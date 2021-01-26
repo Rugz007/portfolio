@@ -13,7 +13,6 @@ export const TechCard: React.FC<TechCardProps> = ({ title, description, icon }) 
                 <div style={{width:'100%',margin:'auto'}}>
                 {icon.map(item => (item))}
                 </div>
-            
             </Row>
             <h2><b>{title}</b></h2>
             <h3>{description}</h3>
