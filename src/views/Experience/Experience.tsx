@@ -31,7 +31,7 @@ export const Experience: React.FC = () => {
                                         <Col xl={0} lg={0} md={0} sm={8} xs={2} />
                                         <Col xl={20} lg={16} md={16} sm={24} xs={24}>
                                             <h2 style={{ float: 'left' }}><b>Website Development Intern</b></h2>
-                                            <h3 style={{ float: 'right' }}>July 2019-Present</h3>
+                                            <h3 style={{ float: 'right' }}>July 2019-January 2021</h3>
                                             <Divider />
                                             <h2>Technologies Used:<img alt='react' src="https://img.icons8.com/color/48/000000/react-native.png" /> <img alt='mongo' src="https://img.icons8.com/color/48/000000/mongodb.png" /> <img alt='docker' src="https://img.icons8.com/color/48/000000/docker.png" /></h2>
                                             <ul>
