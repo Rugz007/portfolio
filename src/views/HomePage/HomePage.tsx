@@ -54,12 +54,11 @@ export const HomePage: React.FC = () => {
                         <Fade>
                             <Row style={{ textAlign: 'left', marginTop: "5%" }}>
                                 <h1 style={{ color: 'black', fontSize: '2em' }}>About Me<br /> <div style={{ height: '4px', backgroundColor: '#00c2c2', width: '70%' }} /></h1>
-                                <h3 style={{ color: 'black' }}>I am 2nd year IT student at Pune Institute of Computer Technology, currently working in the fields of Website Development and Data Science.
+                                <h3 style={{ color: 'black' }}>I am a 2nd year IT student at Pune Institute of Computer Technology, currently working in the fields of Website Development and Data Science.
                                 A proficient Game Designer and Developer.
                                 Skilled at writing well-designed, testable and efficient code using current best practices in Web development.
-                                A fast learner, natural leader, hard worker and team player who is proficient in an array of various technologies.
+                                A fast learner, natural leader, hard worker and a team player who is proficient in an array of various technologies.
                                 </h3>
-
                             </Row>
                         </Fade>
 
