@@ -6,7 +6,14 @@ const Work =
             description:'Developed the website for digitalizing the functioning of Bhartiya Shikshan Mandal using ReactJS, MongoDB and Docker.',
             icon:<img src='logo_bsm.png' alt='bsm bharat'/>,
             stack:[],
-        }
+        },
+        {
+            title:'Website Developement Intern',
+            description:'Developing a MCQ platform for PrepiiT institute with advanced analysis, blog system and main website.',
+            icon:<img src='logo_bsm.png' alt='bsm bharat'/>,
+            stack:[],
+        },
+        
     ],
     volunteer:[
         {

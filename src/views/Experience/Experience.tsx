@@ -28,10 +28,10 @@ export const Experience: React.FC = () => {
                                     <Row>
                                         <Col xl={0} lg={0} md={0} sm={8} xs={2} />
                                         <Col xl={4} lg={8} md={8} sm={8} xs={20}><a href='https://bsmbharat.org/' rel="noopener noreferrer" target="_blank" style={{ width: '85%', margin: 'auto' }}><img src='logo_BSM.png' style={{ width: '100% ' }} alt='bsm bharat' /></a></Col>
-                                        <Col xl={0} lg={0} md={0} sm={8} xs={2} />
-                                        <Col xl={20} lg={16} md={16} sm={24} xs={24}>
-                                            <h2 style={{ float: 'left' }}><b>Website Development Intern</b></h2>
-                                            <h3 style={{ float: 'right' }}>July 2019-January 2021</h3>
+                                        <Col xl={1} lg={0} md={0} sm={8} xs={2} />
+                                        <Col xl={19} lg={16} md={16} sm={24} xs={24}>
+                                            <h2 style={{ float: 'left' }}><b>Front-end Developer Intern</b></h2>
+                                            <h3 style={{ float: 'right' }}>July 2020-January 2021</h3>
                                             <Divider />
                                             <h2>Technologies Used:<img alt='react' src="https://img.icons8.com/color/48/000000/react-native.png" /> <img alt='mongo' src="https://img.icons8.com/color/48/000000/mongodb.png" /> <img alt='docker' src="https://img.icons8.com/color/48/000000/docker.png" /></h2>
                                             <ul>
@@ -39,9 +39,30 @@ export const Experience: React.FC = () => {
                                                     <h2>Developed the website for digitalizing the functioning of Bhartiya Shikshan Mandal using modern technologies.</h2>
                                                 </li>
                                             </ul>
-                                            <a href='https://bsmmandal.in/' rel="noopener noreferrer" target="_blank"><Button shape='round' style={{ float: 'right' }}>Visit Website</Button></a>
+                                            <a href='https://github.com/Rugz007/RfRf_project' rel="noopener noreferrer" target="_blank"><Button shape='round' style={{ float: 'right' }}><img  alt ='github'style ={{width:'20px',marginRight:'3%'}}src="github.png"/>  Visit GitHub</Button></a>
                                         </Col>
+
                                     </Row>
+                                    <br/>
+                                    <Row>
+                                        <Col xl={0} lg={0} md={0} sm={8} xs={2} />
+                                        <Col xl={4} lg={8} md={8} sm={8} xs={20}><a href='/' rel="noopener noreferrer" target="_blank" style={{ width: '85%', margin: 'auto' }}><img src='logo-nobg.png' style={{ width: '100% ' }} alt='bsm bharat' /></a></Col>
+                                        <Col xl={1} lg={0} md={0} sm={8} xs={2} />
+                                        <Col xl={19} lg={16} md={16} sm={24} xs={24}>
+                                            <h2 style={{ float: 'left' }}><b>Website Development Intern</b></h2>
+                                            <h3 style={{ float: 'right' }}>January 2021 - Present</h3>
+                                            <Divider />
+                                            <h2>Technologies Used:<img alt='react' src="https://img.icons8.com/color/48/000000/react-native.png" />  <img alt='postgres' src="https://img.icons8.com/color/48/000000/postgreesql.png" />  <img alt='typescript' src="https://img.icons8.com/color/48/000000/typescript.png" />  <img alt='docker' src="https://img.icons8.com/color/48/000000/docker.png" /></h2>
+                                            <ul>
+                                                <li>
+                                                    <h2>Developing a MCQ platform for PrepiiT institute with advanced analysis, blog system and main website.</h2>
+                                                </li>
+                                            </ul>
+                                        </Col>
+
+                                    </Row>
+
+
                                 </Card>
                             </Row>
                         </Fade>

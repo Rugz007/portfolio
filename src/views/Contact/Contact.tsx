@@ -19,7 +19,7 @@ export const Contact: React.FC = () => {
                                 <h3>You can contact me on the platforms below and I will respond within 24 hours. Feel free to ask me anything.</h3>
                             </Row>
                             <Row>
-                                <Card bordered={false} hoverable style={{ width: '80%', margin: '2% auto' }}>
+                                <Card bordered={false} style={{ width: '80%', margin: '2% auto' }}>
                                     <Row>
                                         <Col lg={2} xs={1} sm={1} />
                                         <Col lg={12} xs={0} sm={0}>
