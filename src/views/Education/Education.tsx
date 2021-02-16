@@ -39,7 +39,7 @@ export const Education: React.FC = () => {
                                             <Divider />
                                             <ul>
                                                 <li>
-                                                    <h2>Pursueing B.E. in Information Technology</h2>
+                                                    <h2>Pursuing B.E. in Information Technology</h2>
                                                 </li>
                                                 <li>
                                                     <h2>Studied basic software engineering subjects like Data Structures, Algorithms, Database Management Systems etc.</h2>
