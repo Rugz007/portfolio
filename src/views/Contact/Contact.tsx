@@ -16,7 +16,9 @@ export const Contact: React.FC = () => {
                                 <h1 style={{ fontSize: '2em' }}>Contact Me<br /><div style={{ height: '4px', backgroundColor: '#00c2c2', width: '60%' }} /></h1>
                             </Row>
                             <Row>
+                                <Row style={{backdropFilter:''}}>
                                 <h3>You can contact me on the platforms below and I will respond within 24 hours. Feel free to ask me anything.</h3>
+                                </Row>
                             </Row>
                             <Row>
                                 <Card bordered={false} style={{ width: '80%', margin: '2% auto' }}>
@@ -36,6 +38,8 @@ export const Contact: React.FC = () => {
                                         <Col lg={2} xs={1} sm={1} />
                                     </Row>  
                                 </Card>
+                                *I do not own any logos/images and all the images are property of respective companies/organizations.
+
                             </Row>
                         </Fade>
                     </Col>
