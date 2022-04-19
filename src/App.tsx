@@ -17,8 +17,8 @@ function App() {
       <Router>
         <HeaderNav />
         <Routes></Routes>
-        {isDesktopOrLaptop && <a href='https://drive.google.com/file/d/12FCdB3mqHdIijuJaQbX8Ezm8pwMLrK2L/view?usp=sharing'  rel="noopener noreferrer" target="_blank"><Button shape='round' size="large" type="primary" icon={<DownloadOutlined />} style={{position:'fixed',bottom:'20px',right:'30px',color:'black'}}>Download My Resume</Button></a>}
-        {isTabletOrMobile && <a href='https://drive.google.com/file/d/12FCdB3mqHdIijuJaQbX8Ezm8pwMLrK2L/view?usp=sharing'  rel="noopener noreferrer" target="_blank"><Button shape='round' size="large" type="primary" icon={<DownloadOutlined />} style={{position:'fixed',bottom:'20px',right:'30px',color:'black'}}></Button></a>}
+        {isDesktopOrLaptop && <a href='https://drive.google.com/file/d/1Zs7Bpp-J9Cw8-RsxzHvfvlckBZ181_ju/view'  rel="noopener noreferrer" target="_blank"><Button shape='round' size="large" type="primary" icon={<DownloadOutlined />} style={{position:'fixed',bottom:'20px',right:'30px',color:'black'}}>Download My Resume</Button></a>}
+        {isTabletOrMobile && <a href='https://drive.google.com/file/d/1Zs7Bpp-J9Cw8-RsxzHvfvlckBZ181_ju/view'  rel="noopener noreferrer" target="_blank"><Button shape='round' size="large" type="primary" icon={<DownloadOutlined />} style={{position:'fixed',bottom:'20px',right:'30px',color:'black'}}></Button></a>}
         
 
       </Router>

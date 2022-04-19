@@ -83,7 +83,7 @@ export const Education: React.FC = () => {
                     <Col span={16} >
                         <Fade>
                             <Row style={{ textAlign: 'center', marginTop: '3%', width: '100%' }}>
-                                <Col span={24}><h1 style={{ fontSize: '2em' }}>Interested in my work or need help? Let's Talk</h1></Col>
+                                <Col span={24}><h1 style={{ fontSize: '2em' }}>Interested in my work or need help? Let's talk</h1></Col>
                                 <Col span={24}><Button size="large" type='primary' style={{ color: 'black' }} shape='round'><Link to='/contact'>Contact Me</Link></Button></Col>
                             </Row>
                         </Fade>

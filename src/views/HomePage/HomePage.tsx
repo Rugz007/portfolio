@@ -39,7 +39,7 @@ export const HomePage: React.FC = () => {
                                         <h1 style={{ fontSize: '2.5em', padding: '.2% 1.2%', marginTop: '5%', marginBottom: '0', borderWidth: '5%', borderStyle: 'solid', borderColor: 'white' }}><b>I am Rugved Somwanshi</b></h1>
                                     </Row>
                                     <br></br>
-                                    <h1 style={{ fontSize: '1.6em', float: 'left', textAlign: 'left' }}>full stack developer,data scientist and student.</h1>
+                                    <h1 style={{ fontSize: '1.6em', float: 'left', textAlign: 'left' }}>full stack developer, data scientist and student.</h1>
                                 </Col>
                                 <Col lg={0} md={0} sm={2} xs={2} />
                             </Row>
@@ -54,7 +54,7 @@ export const HomePage: React.FC = () => {
                         <Fade>
                             <Row style={{ textAlign: 'left', marginTop: "5%" }}>
                                 <h1 style={{ color: 'black', fontSize: '2em' }}>About Me<br /> <div style={{ height: '4px', backgroundColor: '#00c2c2', width: '70%' }} /></h1>
-                                <h3 style={{ color: 'black' }}>I am a 2nd year IT student at Pune Institute of Computer Technology, currently working in the fields of Website Development and Data Science.
+                                <h3 style={{ color: 'black' }}>I am a 3rd year IT student at Pune Institute of Computer Technology, currently working in the fields of Website Development and Data Science.
                                 A proficient Game Designer and Developer.
                                 Skilled at writing well-designed, testable and efficient code using current best practices in Web development.
                                 A fast learner, natural leader, hard worker and a team player who is proficient in an array of various technologies.
@@ -98,7 +98,7 @@ export const HomePage: React.FC = () => {
                     <Col span={16} >
                         <Fade>
                             <Row style={{ textAlign: 'center', marginTop: '3%', width: '100%' }}>
-                                <Col span={24}><h1 style={{ color: 'black', fontSize: '2em' }}>Interested in my work or need help? Let's Talk</h1></Col>
+                                <Col span={24}><h1 style={{ color: 'black', fontSize: '2em' }}>Interested in my work or need help? Let's talk</h1></Col>
                                 <Col span={24}><Button size="large" shape='round'><Link to='/contact'>Contact Me</Link></Button></Col>
                             </Row>
                         </Fade>
