@@ -42,13 +42,13 @@ export const Experience: React.FC = () => {
                     <Col xl={0} lg={0} md={0} sm={8} xs={2} />
                     <Col xl={4} lg={8} md={8} sm={8} xs={20}>
                       <a
-                        href="https://bsmbharat.org/"
+                        href="https://ai4bharat.org/"
                         rel="noopener noreferrer"
                         target="_blank"
                         style={{ width: "85%", margin: "auto" }}
                       >
                         <img
-                          src="https://ai4bharat.org/images/logo.png"
+                          src="ai4bharat.png"
                           style={{ width: "100% " }}
                           alt="bsm bharat"
                         />
@@ -61,7 +61,7 @@ export const Experience: React.FC = () => {
                           Software Developer Intern at AI4Bharat, IIT Madras
                         </b>
                       </h2>
-                      <h3 style={{ float: "right" }}>Feb 2022- April 2022</h3>
+                      <h3 style={{ float: "right" }}>Feb 2022- June 2022</h3>
                       <Divider />
                       <h2>
                         Technologies Used:
@@ -94,7 +94,7 @@ export const Experience: React.FC = () => {
                         </li>
                       </ul>
                       <a
-                        href="https://github.com/Rugz007/RfRf_project"
+                        href="https://ai4bharat.org/shoonya"
                         rel="noopener noreferrer"
                         target="_blank"
                       >
@@ -104,7 +104,7 @@ export const Experience: React.FC = () => {
                             style={{ width: "20px", marginRight: "3%" }}
                             src="github.png"
                           />{" "}
-                          Visit GitHub
+                          Visit Website
                         </Button>
                       </a>
                     </Col>
