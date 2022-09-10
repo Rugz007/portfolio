@@ -2,6 +2,11 @@ const Technologies = [
   {
     title: "Modern Web",
     iconLink: [
+      <img
+        alt="nestjs"
+        style={{ width: "48px" }}
+        src="https://docs.nestjs.com/assets/logo-small.svg"
+      />,
       <img alt="go" src="https://img.icons8.com/color/48/000000/golang.png" />,
       <img
         alt="graphql"
@@ -9,7 +14,8 @@ const Technologies = [
       />,
       <img alt="nextjs" src="next.png" />,
     ],
-    description: "Building robust, scalable and fast web applications with cutting edge technologies like GraphQL, NextJS, Go, etc.",
+    description:
+      "Building robust, scalable and fast web applications with cutting edge technologies like NestJS, GraphQL, NextJS, Go, etc.",
   },
 
   {
@@ -35,17 +41,18 @@ const Technologies = [
     iconLink: [
       <img
         alt="python"
-        style={{ margin: "0% 4%" }}
+        style={{ margin: "0% 2%" }}
         src="https://img.icons8.com/color/50/000000/python.png"
       />,
       <img
         alt="django"
         style={{ width: "54px" }}
         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAEcUlEQVRoge2Wf4hUVRTHP+fNrLrm7K4LapiB5R9Fu82kM6ubBrUUEUpiLRrYDyVKa6NsVoq0kE0lqGhnTMl+EIYUhRn2QyKSsF+abjOyvnWLMEo2wQJjnXVtdXbePf0xd9Qxdx1/1R+9Dwz33XPPvfd77j3nzQMfHx8fHx8fHx8fn/8rcjpjJN18l6q+B+DGEhJJPb5OkfmF/r8p8Ew4/7WA8yVYipNRcQU+u9hizoWSAuioSySAxEXWck4cD2DirsXXGKO3GXSUMTpOTsr0yPfNa1R0LoAbS1TXdDaNcI4OnSuGOxDGAyGQPUa8J/dEV7nh1KIp4MxGiKFcChoC6UL0i56eqpX7GlqOFtaubWueKgFzn6jUAdUAAhmFvUZ0WZl4B3Mm8JQg04ExQLeKbpF+b6Vbv3p/EEXC6XjSM+ZRIK/7lDI16HCBkYW+89fQehFeK/bTyxx1RgOTRAP3qugjaGFMAMaiUl8RyoSARWiLE05nVoM2ocUb5qfpKDyn13Nkp8AVJw2PFJWFBIOzJu5aPMWJpOMLgcfsLl2gaxG+GuzaAmgf6HqEmQHHqUE1aYeuPsXVoDJPhDuB/dbWCBBOZx4CmvLh6RZUZwOfWp/DiNPoOGYJJ8S/isj1wCu2P8Yz3nJH4WFr6C7DibqxZJMgawcLoL0uuc2NJuerR4+nZoYINXao/BRXdeta1++OJjaJHhc3xrYP2va3kYerprt1yY1AF4CCutHWHSC3W59DXnnlIjfausMrr4wDh/JmuTUIXGU7benYSwcHE16gNvXEBCfd/yEOtSjo6f9OijAixySfHIW6s/uy68uGlhyACDlVkBM+hWAPdNa0ZAE6a1qy4VT8AFAFVDuALSgdNdDmjhQnqYi3FKQW2IvKPBXuP2ME/0C7AQTGH7cYzdnHMgCFwoGOi6YWDAew7eXWvj8IbAOmA5OuTcWfUYLvov2jT65kxRlqS8vWl16Z31zaMr0VG6pCh242JdxCMdIOjFWIhFPNbyi6VeE6KQSgiKTZTD7VQlkuWRdOx9/OKvcIjLDCPnAco08DvfY0Vjjkflbk5eLD0hH26QiAI9KWn693V4QyfQbZfJbqAbOcE7f/gMA7AjfZwWMI6pngMuBXq20OyscCc6yPW+7lVjrtk5Pt4klUlXXAPiAL9AFdCp/nD6uQi9oDENTeZ1GeA3YAe227WdC3AIzon8Av9pdfQkyRzY2t2gk6TWED0An6LdBh3bsBOie/+LuXJabICpTv7NxvBJZQFpi6s351zxnvvWZ7vDowhD+AICpfu3WtN5Z4xGdNOB3fgnIL4LqxRKSUOYN+Sozf2jIsOKTnTUWDACJ8dAF0AhBJNW8y0CGqP6iIJ5gGKx5EPyl1nQEDiKYWlGXJbFSYASDC9tywijXnrdyi6ASBWQjkX6/5ZBDYfbRvyPOlrjPg53Q69np/R7Rypog2gizNDatsKLyLLwSCvg/8SP7FcAToUFiuZYFpP93wwuELtY+Pj4+Pj4+Pj4+Pz4D8DUmtqDiE44CsAAAAAElFTkSuQmCC"
-      />,<img
-        alt="django"
-        style={{ width: "54px" ,marginLeft:'1%'}}
-        src="https://dyltqmyl993wv.cloudfront.net/assets/stacks/rabbitmq/img/rabbitmq-stack-220x234.png"
+      />,
+      <img
+        alt="rabitmq"
+        style={{ width: "40px", marginLeft: "3%" }}
+        src="https://png2.cleanpng.com/sh/970efdece240fb71aa28c5dfc130afb9/L0KzQYm3WMMxN6R4eZH0aYP2gLBuTgJiapNujN96LYPmcb3ogvxmNadqeAZ4cj3qgrL3iPlke15ohNt5LXH1hH73jCJ1aZNxReRqYnLshL74Tfxwb5CyiAhwLYboc8X2kr1idaEyiNDwLYT1cbB6kPFzbZ95Reg2NXK7SIPtWPVlQGRqfKQ3M0O6RoGBUsEyPWQ6Tqc6N0K5SIm8WL5xdpg=/kisspng-rabbitmq-scalable-vector-graphics-clip-art-portabl-rabbitmq-logo-svg-vector-amp-png-transparent-v-5b882f8ed83ed2.3376082115356517268858.png"
       />,
       <img
         alt="redis"
