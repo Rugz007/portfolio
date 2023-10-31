@@ -7,7 +7,6 @@ export const Contact: React.FC = () => {
     return (
         <Layout>
             <Content style={{ backgroundColor: "#222222" }}>
-                <Row className="contactcover" style={{ height: '300px' }} />
                 <Row>
                     <Col span={4} />
                     <Col span={16}>

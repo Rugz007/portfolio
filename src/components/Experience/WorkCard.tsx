@@ -27,7 +27,7 @@ export const WorkCard: React.FC<WorkCardProps> = ({ title, description, icon, st
                     <Col span={12}>
                         <h2 style={{ color: 'white' }}><b>{title}</b></h2>
                         {stack.map(item => (item))}
-                        <h3>{description}</h3>
+                        <h4>{description}</h4>
                     </Col>
                 </Row>
 

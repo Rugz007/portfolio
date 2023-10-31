@@ -12,8 +12,6 @@ export const Experience: React.FC = () => {
   return (
     <Layout>
       <Content style={{ backgroundColor: "#222222" }}>
-        <Row className="experiencecover" style={{ height: "30vh" }} />
-
         <Row>
           <Col lg={4} md={2} sm={1} xs={1} />
           <Col lg={16} md={20} sm={22} xs={22}>
@@ -57,11 +55,11 @@ export const Experience: React.FC = () => {
                     <Col xl={1} lg={0} md={0} sm={8} xs={2} />
                     <Col xl={19} lg={16} md={16} sm={24} xs={24}>
                       <h2 style={{ float: "left" }}>
-                        <b>
-                          Software Developer Intern at AI4Bharat, IIT Madras
-                        </b>
+                        <b>SDE Intern at AI4Bharat, IIT Madras</b>
                       </h2>
-                      <h3 style={{ float: "right" }}>Feb 2022- June 2022</h3>
+                      <h3 style={{ float: "right" }}>
+                        Jan 2023 - May 2023 | Feb 2022- June 2022
+                      </h3>
                       <Divider />
                       <h2>
                         Technologies Used:
@@ -81,16 +79,30 @@ export const Experience: React.FC = () => {
                           alt="docker"
                           src="https://img.icons8.com/color/48/000000/docker.png"
                         />
+                        <img
+                          alt="fastapi"
+                          width={130}
+                          height={48}
+                          src="fastapi.png"
+                        />
                       </h2>
                       <ul>
                         <li>
-                          <h2>
-                            Developed a data-collection and annotation platform
-                            for the organization which is used by over 300
-                            annotators across India to collect different types
-                            of data for enabling ML engineers to train India
-                            specific models.
-                          </h2>
+                          <h3>
+                            Achieved 5x growth for dataset annotation by
+                            collaborating and onboarding 150+ annotators by
+                            developing an open-source platform for AI-assisted
+                            language data curation using skills like ReactJS,
+                            Docker, and Django
+                          </h3>
+                        </li>
+                        <li>
+                          <h3>
+                            Developed Dhruva, a ML services orchestration
+                            platform, facilitating easy usage of 20 large NLP
+                            services for Indian languages with technologies
+                            NextJS, Docker, TypeScript, and FastAPI
+                          </h3>
                         </li>
                       </ul>
                       <a
@@ -99,12 +111,83 @@ export const Experience: React.FC = () => {
                         target="_blank"
                       >
                         <Button shape="round" style={{ float: "right" }}>
-                          <img
-                            alt="github"
-                            style={{ width: "20px", marginRight: "3%" }}
-                            src="github.png"
-                          />{" "}
-                          Visit Website
+                           Website
+                        </Button>
+                      </a>
+                    </Col>
+                  </Row>
+                  <br />
+                  <Row style={{ marginBottom: "1%" }}>
+                    <Col xl={0} lg={0} md={0} sm={8} xs={2} />
+                    <Col xl={4} lg={8} md={8} sm={8} xs={20}>
+                      <a
+                        href="https://fossee.in/"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        style={{ width: "85%", margin: "auto" }}
+                      >
+                        <img
+                          src="fossee.png"
+                          style={{ width: "100% " }}
+                          alt="fossee"
+                        />
+                      </a>
+                    </Col>
+                    <Col xl={1} lg={0} md={0} sm={8} xs={2} />
+                    <Col xl={19} lg={16} md={16} sm={24} xs={24}>
+                      <h2 style={{ float: "left" }}>
+                        <b>Founding Engineering Intern at Supermind</b>
+                      </h2>
+                      <h3 style={{ float: "right" }}>
+                        July 2022 - December 2022
+                      </h3>
+                      <Divider />
+                      <h2>
+                        Technologies Used:
+                        <img
+                          alt="react"
+                          src="https://img.icons8.com/color/48/000000/react-native.png"
+                        />{" "}
+                        <img
+                          alt="fastapi"
+                          width={130}
+                          height={48}
+                          src="fastapi.png"
+                        />
+                        <img
+                          alt="postgres"
+                          src="https://img.icons8.com/color/48/000000/postgreesql.png"
+                        />{" "}
+                        <img
+                          alt="docker"
+                          src="https://img.icons8.com/color/48/000000/docker.png"
+                        />{" "}
+                      </h2>
+                      <ul>
+                        <li>
+                          <h3>
+                            Implemented a revolutionary zero-to-one social media
+                            search product for crypto-analysts, empowering them
+                            to extract insights from telegram chats and make
+                            informed decisions, resulting in 4x times the
+                            insights
+                          </h3>
+                        </li>
+                        <li>
+                          <h3>
+                            Created interactive search UI using NextJS, FastAPI,
+                            and PostgreSQL for 40+ indexed telegram channels and
+                            1.5 million messages
+                          </h3>
+                        </li>
+                      </ul>
+                      <a
+                        href="https://app.getsupermind.com"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <Button shape="round" style={{ float: "right" }}>
+                           Website
                         </Button>
                       </a>
                     </Col>
@@ -162,10 +245,20 @@ export const Experience: React.FC = () => {
                       </h2>
                       <ul>
                         <li>
-                          <h2>
-                            Developed an online circuit and Arduino simulator w/
-                            dyanamic workflows and LTI support.
-                          </h2>
+                          <h3>
+                            Improved user experience and collaboration between
+                            users with a dynamic workflow with roles and
+                            permission control for eSim on Cloud, an electronics
+                            circuit simulator, resulting in the onboarding of
+                            200 students and 20 teachers
+                          </h3>
+                        </li>
+                        <li>
+                          <h3>
+                            Engineered an auto-grader, a reporting system, and a
+                            versioning system and integrated them with the
+                            workflow
+                          </h3>
                         </li>
                       </ul>
                       <a
@@ -176,10 +269,10 @@ export const Experience: React.FC = () => {
                         <Button shape="round" style={{ float: "right" }}>
                           <img
                             alt="github"
-                            style={{ width: "20px", marginRight: "3%" }}
+                            style={{ width: "20px", marginRight: "8%" }}
                             src="github.png"
                           />{" "}
-                          Visit GitHub
+                           GitHub
                         </Button>
                       </a>
                     </Col>
@@ -225,10 +318,10 @@ export const Experience: React.FC = () => {
                       </h2>
                       <ul>
                         <li>
-                          <h2>
+                          <h3>
                             Developing a MCQ platform for PrepiiT institute with
                             advanced analysis, blog system and main website.
-                          </h2>
+                          </h3>
                         </li>
                       </ul>
                     </Col>
@@ -275,11 +368,11 @@ export const Experience: React.FC = () => {
                       </h2>
                       <ul>
                         <li>
-                          <h2>
+                          <h3>
                             Developed the website for digitalizing the
                             functioning of Bhartiya Shikshan Mandal using modern
                             technologies.
-                          </h2>
+                          </h3>
                         </li>
                       </ul>
                       <a
@@ -290,10 +383,10 @@ export const Experience: React.FC = () => {
                         <Button shape="round" style={{ float: "right" }}>
                           <img
                             alt="github"
-                            style={{ width: "20px", marginRight: "3%" }}
+                            style={{ width: "20px", marginRight: "8%" }}
                             src="github.png"
                           />{" "}
-                          Visit GitHub
+                           GitHub
                         </Button>
                       </a>
                     </Col>
