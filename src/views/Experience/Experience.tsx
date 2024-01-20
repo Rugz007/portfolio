@@ -121,15 +121,15 @@ export const Experience: React.FC = () => {
                     <Col xl={0} lg={0} md={0} sm={8} xs={2} />
                     <Col xl={4} lg={8} md={8} sm={8} xs={20}>
                       <a
-                        href="https://fossee.in/"
+                        href="https://www.linkedin.com/company/getsupermind/about/"
                         rel="noopener noreferrer"
                         target="_blank"
                         style={{ width: "85%", margin: "auto" }}
                       >
                         <img
-                          src="fossee.png"
+                          src="supermind_inc_logo.jpeg"
                           style={{ width: "100% " }}
-                          alt="fossee"
+                          alt="supermind"
                         />
                       </a>
                     </Col>
